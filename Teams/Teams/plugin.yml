@@ -1,0 +1,8 @@
+name: Teams
+main: teams\Main
+description: Skeleton for a teams plugin.
+version: 0.0.1
+api:
+  - 4.0.0+dev
+  - 3.0.4
+authors: [hartleyterw]

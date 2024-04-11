@@ -1,0 +1,27 @@
+name: Groups
+version: 1.5
+main: net.fricktastic.groups.Groups
+api-version: 1.13
+authors: [hartleyterw]
+description: A chat grouping system.
+commands:
+  group:
+    aliases: [g, groups]
+    usage: |
+      §6/g create <name>: §eCreate a new group.
+      §6/g invite <player name>: §eInvite a player to your group.
+      §6/g kick <player name>: §eKick a member of your group.
+      §6/g promote <player name>: §ePromote a member of your group.
+      §6/g demote <player name>: §eDemote a member of your group.
+      §6/g transfer <player name>: §eTransfer ownership of your group to another member.
+      §6/g disband: §eDisband your group.
+      §6/g info: §eView info about your group.
+      §6/g list <page number>: §eDisplay the list of available groups.
+      §6/g: §eSwitch between the public and private chat channels.
+permissions:
+  groups:
+    description: Main Groups permission.
+    children:
+      groups.admin:
+        description: Allows admin functionality.
+        default: op

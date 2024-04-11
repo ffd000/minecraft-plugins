@@ -1,0 +1,9 @@
+name: TNTRun
+main: tntrun\Main
+api: 3.0.0-ALPHA5
+version: 1.0.0
+author: Stormcade Network
+
+commands:
+  tr:
+    description: "TNTRun base command."

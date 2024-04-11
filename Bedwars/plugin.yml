@@ -1,0 +1,12 @@
+name: Bedwars
+main: bedwars\Main
+version: 1.0.0
+api: 3.0.0-ALPHA5
+author: Stormcade Network
+
+commands:
+  bw:
+    description: "Bedwars base-command."
+    
+  bedwars:
+    description: "Bedwars base-command."

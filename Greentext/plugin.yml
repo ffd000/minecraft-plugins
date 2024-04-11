@@ -1,0 +1,13 @@
+name: Greentext
+version: 1.0-SNAPSHOT
+main: net.fricktastic.greentext.Greentext
+api-version: 1.13
+authors: [hartleyterw]
+description: Greentext chat.
+permissions:
+  greentext:
+    description: Main Greentext permission node.
+    children:
+      greentext.allowcolorcodes:
+        description: Whether to strip colors in a greentext message.
+        default: op
