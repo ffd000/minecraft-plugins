@@ -4,8 +4,6 @@ I'm familiar with every major server software for Minecraft and pocket edition. 
 
 As well as modifying plugins directly I am also experienced with high-level APIs like FAWE, Geyser, Luckperms, Citizens.
 
-My past work includes:
-
 Old - RPG, ChestProtector, Greentext, ChatGroups, Core_Auth
 
 Very old - TheWalls, BuildBattle, MineReset, Bedwars, TNTRun, Teams, SurvivalGames
